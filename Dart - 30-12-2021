@@ -88,5 +88,43 @@ void main() {
   
   print(ddds.isNotEmpty);
 }
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Hoje aprendi sobre transcrição de código em JSON para pegar uma String que o servidor me retorna.
+
+EN: Today I've Learned about Code Transcription to JSON to get a String that a server returns.
+
+Code:
+import 'dart:convert';
 
 
+void main() {
+  Map<String, dynamic> dados = json.decode(dadosDoUsuario());
+  print(dados['cursos'][0]['dificuldade']);
+}
+
+String dadosDoUsuario() {
+  return """
+    {
+    "nome": "Gabriel",
+    "sobrenome": "Phelix",
+    "idade": 25,
+    "casado": false,
+    "altura": 1.63,
+    "cursos": [
+      {
+        "nome": "Dart",
+        "dificuldade": 1
+      },
+      {
+        "nome": "Flutter",
+        "dificuldade": 2
+      }
+    ],
+      "Endereço": {
+      "Cidade": "Campinas",
+      "País": "Brasil",
+      "Número": 100
+      }
+    }
+    """;
+}
