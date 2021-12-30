@@ -29,3 +29,31 @@ List<String> nomes = [
 }
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Hoje aprendi sobre as listas no Null-Safety e seus tipos de utilização: List<String>, List<String?>, List<String?>?.
+
+EN: Today I've learned about Null-Safety list and it's types of code implementation: List<String>, List<String?>, List<String?>?.
+
+Code:
+void main() {
+  
+List<String> lista1 = [];
+  
+  lista1.add("Gabriel");
+  
+  List<String>? lista2;
+  
+  if(lista2 != null) {
+    lista2.add("Phelix");
+  }
+  
+  List<String?>? lista3;
+  
+  if(lista3 != null) {
+    lista3.add(null);
+  }
+  
+  List<String?> lista4 = [];
+  lista4.add(null);
+  
+  
+}
