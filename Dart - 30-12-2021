@@ -1,0 +1,29 @@
+Hoje aprendi sobre iteração de listas de Strings e como trazer a mesma em letras maiúsculas caso necessário utilizando a função toUpperCase, for e ForEach.
+
+EN: T.I.L (Today I've Learned) about list iteration of Strings components and how to display the list on complete Upper Case in case of need with the function toUpperCase, for and ForEach.
+
+Today's Code:
+
+Código efetuado hoje:
+
+void main() {
+  
+List<String> nomes = [
+  "Gabriel",
+  "Phelix",
+  "Henrique",
+  "Giovanna",
+  "Marcos",
+  "Eliane",
+  "Mariane",
+];
+  print(nomes);
+  
+  for(String nome in nomes.sublist(2, 4)) {
+    print(nome.toUpperCase());
+  }
+  
+  nomes.forEach((nome){
+    print(nome.toUpperCase());
+  });
+}
