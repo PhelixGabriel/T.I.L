@@ -57,3 +57,36 @@ List<String> lista1 = [];
   
   
 }
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Hoje eu aprendi sobre mapas e como usar o mesmo para buscar itens específicos armazenado em um tipo de lista.
+
+EN: Today I've Learned about Map e how to use it to get specific itens that are stored on a list.
+
+Code:
+
+void main() {
+  Map<int, String?> ddds = {
+    11: 'São Paulo',
+    19: 'Campinas',
+    41: 'Curitiba',
+    49: null,
+  };
+  
+  String? cidade = ddds[11];
+  print(cidade);
+  
+  print(ddds.length);
+  
+  ddds[61] = "Brasilia";
+
+  print(ddds);
+  
+  ddds.remove(49);
+  
+  print(ddds.containsValue('Curitiba'));
+  
+  print(ddds.isNotEmpty);
+}
+
+
