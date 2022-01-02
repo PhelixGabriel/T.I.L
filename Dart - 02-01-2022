@@ -20,3 +20,32 @@ void main() {
     print('finalizou');
   }
 }
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Hoje eu aprendi sobre Exception Personalizadas 
+
+EN: Today I've Learned about personalized Exceptions on try/catch errors.
+
+Code:
+void main() {
+  try{
+    funcao(-10);
+  }on ParametroIncorreto {
+    print('Informações Incorretas');
+  } catch (e) {
+    print (e);
+  }
+}
+
+void funcao(int x) {
+  if(x <= 0) {
+    throw ParametroIncorreto();
+  }
+  print(x);
+}
+
+class ParametroIncorreto implements Exception {
+  String toString() {
+    return 'Voce não pode passar um valor menor ou igual a 0 (zero)';
+  }
+}
