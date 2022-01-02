@@ -76,3 +76,25 @@ void main() {
   
   
 }
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Hoje aprendi sobre os modificadores Final e Const
+
+EN: Today I've Learned about Final and Const KeyWord.
+
+Code: 
+
+void main() {
+  const nome = 'Gabriel';
+  const idade = 50 + 30;
+  const lista = ['Gabriel', 'Phelix'];
+  
+  final String sobrenome;
+  if(nome == 'Gabriel') {
+    sobrenome = 'Phelix';
+  } else {
+    sobrenome = 'Whatever';
+  }
+  
+  sobrenome = 'Teste do modificador Final';
+}
