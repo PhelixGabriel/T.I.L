@@ -98,3 +98,21 @@ void main() {
   
   sobrenome = 'Teste do modificador Final';
 }
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Hoje aprendi sobre Operadores Cascata
+
+Code:
+void main() {
+  List<String> nomes = [];
+
+
+}
+
+List<String> funcao(List<String> lista) {
+  return lista
+    ..add('Gabriel')
+    ..add('Phelix')
+    ..remove('Gabriel');
+  
+  
+}
