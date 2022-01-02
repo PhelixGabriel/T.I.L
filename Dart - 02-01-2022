@@ -49,3 +49,30 @@ class ParametroIncorreto implements Exception {
     return 'Voce não pode passar um valor menor ou igual a 0 (zero)';
   }
 }
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Hoje aprendi sobre enumeradores
+
+EN: Today I've Learned about Enum
+
+Code:
+enum StatusPagamento {pendente, pago, reembolsado}
+
+void main() {
+  StatusPagamento status = StatusPagamento.pago;
+  switch(status){
+      
+    case StatusPagamento.pendente:
+      // TODO: Handle this case.
+      break;
+    case StatusPagamento.pago:
+      // TODO: Handle this case.
+      break;
+    case StatusPagamento.reembolsado:
+      // TODO: Handle this case.
+      break;
+  }
+  
+  print(StatusPagamento);
+  
+  
+}
