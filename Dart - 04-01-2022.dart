@@ -1,8 +1,8 @@
-Hoje aprendi sobre Getters e Setters
+// Hoje aprendi sobre Getters e Setters
 
-EN: Today I've Learned about Getter and Setters.
+// EN: Today I've Learned about Getter and Setters.
 
-Code:
+// Code:
 
 void main() {
   Pessoa pessoa1 = Pessoa(nome: 'Gabriel', idade: 40);
@@ -59,11 +59,11 @@ class Pessoa {
 
 *********************************************************************************************************************************************************************************
 
-Hoje aprendi sobre atibutos Nullable
+// Hoje aprendi sobre atibutos Nullable
 
-EN: Today I've Learned about Nullable Atributes
+// EN: Today I've Learned about Nullable Atributes
 
-Code:
+// Code:
 
 void main() {
   Pessoa pessoa1 = Pessoa(nome: 'Gabriel', idade: 40);
@@ -145,11 +145,11 @@ class Pessoa {
 
 *********************************************************************************************************************************************************************************
 
-Hoje eu aprendi sobre o modificador Late.
+// Hoje eu aprendi sobre o modificador Late.
 
-Today I've Learned about Late Modifier
+// Today I've Learned about Late Modifier
 
-Code:
+// Code:
 
 void main() {
   Pessoa pessoa1 = Pessoa(nome: 'Gabriel', idade: 40);
@@ -180,11 +180,11 @@ class Pessoa {
 
 *********************************************************************************************************************************************************************************
 
-Hoje eu aprendi sobre o operador "?."
+// Hoje eu aprendi sobre o operador "?."
 
-Today I've learned about the "?." operator.
+// Today I've learned about the "?." operator.
 
-Code:
+// Code:
 
 void main() {
   Pessoa pessoa1 = Pessoa(nome: 'Gabriel', idade: 40);
