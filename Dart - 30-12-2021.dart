@@ -1,10 +1,10 @@
-Hoje aprendi sobre iteração de listas de Strings e como trazer a mesma em letras maiúsculas caso necessário utilizando a função toUpperCase, for e ForEach.
+// Hoje aprendi sobre iteração de listas de Strings e como trazer a mesma em letras maiúsculas caso necessário utilizando a função toUpperCase, for e ForEach.
 
-EN: T.I.L (Today I've Learned) about list iteration of Strings components and how to display the list on complete Upper Case in case of need with the function toUpperCase, for and ForEach.
+// EN: T.I.L (Today I've Learned) about list iteration of Strings components and how to display the list on complete Upper Case in case of need with the function toUpperCase, for and ForEach.
 
-Today's Code:
+// Today's Code:
 
-Código efetuado hoje:
+// Código efetuado hoje:
 
 void main() {
   
@@ -29,11 +29,12 @@ List<String> nomes = [
 }
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Hoje aprendi sobre as listas no Null-Safety e seus tipos de utilização: List<String>, List<String?>, List<String?>?.
+// Hoje aprendi sobre as listas no Null-Safety e seus tipos de utilização: List<String>, List<String?>, List<String?>?.
 
-EN: Today I've learned about Null-Safety list and it's types of code implementation: List<String>, List<String?>, List<String?>?.
+// EN: Today I've learned about Null-Safety list and it's types of code implementation: List<String>, List<String?>, List<String?>?.
 
-Code:
+// Code:
+  
 void main() {
   
 List<String> lista1 = [];
@@ -59,11 +60,11 @@ List<String> lista1 = [];
 }
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Hoje eu aprendi sobre mapas e como usar o mesmo para buscar itens específicos armazenado em um tipo de lista.
+// Hoje eu aprendi sobre mapas e como usar o mesmo para buscar itens específicos armazenado em um tipo de lista.
 
-EN: Today I've Learned about Map e how to use it to get specific itens that are stored on a list.
+// EN: Today I've Learned about Map e how to use it to get specific itens that are stored on a list.
 
-Code:
+// Code:
 
 void main() {
   Map<int, String?> ddds = {
@@ -89,11 +90,12 @@ void main() {
   print(ddds.isNotEmpty);
 }
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Hoje aprendi sobre transcrição de código em JSON para pegar uma String que o servidor me retorna.
+// Hoje aprendi sobre transcrição de código em JSON para pegar uma String que o servidor me retorna.
 
-EN: Today I've Learned about Code Transcription to JSON to get a String that a server returns.
+// EN: Today I've Learned about Code Transcription to JSON to get a String that a server returns.
 
-Code:
+// Code:
+  
 import 'dart:convert';
 
 
