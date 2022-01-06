@@ -1,8 +1,8 @@
-Hoje aprendi sobre Classes, Objetos e Atributos. Dando início a Programação Orientada a Objetos.
+// Hoje aprendi sobre Classes, Objetos e Atributos. Dando início a Programação Orientada a Objetos.
 
-EN: Today I've Learned about Class, Object and attribute. Starting Object Oriented Programming.
+//EN: Today I've Learned about Class, Object and attribute. Starting Object Oriented Programming.
 
-Code:
+// Code:
 
 void main() {
   Pessoa pessoa1 = Pessoa();
@@ -26,9 +26,9 @@ class Pessoa {
 }
 ***********************************************************************************************************************************************************************************
 
-Hoje aprendi sobre Métodos da linguagem Dart.
+// Hoje aprendi sobre Métodos da linguagem Dart.
 
-EN: Today I've Learned about Methods on Dart language.
+// EN: Today I've Learned about Methods on Dart language.
 
 Code:
 
@@ -78,9 +78,10 @@ class Pessoa {
 
 *********************************************************************************************************************************************************************************
 
-Hoje aprendi sobre Construtores e Construtores Nomeados.
+// Hoje aprendi sobre Construtores e Construtores Nomeados.
 
-Code: 
+// Code:
+  
 void main() {
   Pessoa pessoa1 = Pessoa.solteira(nome: 'Gabriel', idade: 40);
   print(pessoa1.nome);
