@@ -1,8 +1,9 @@
-Hoje eu aprendi sobre Exceptions e Try Catch.
+// Hoje eu aprendi sobre Exceptions e Try Catch.
 
-EN: Today I've Learned about Exceptions / Try Catch
+// EN: Today I've Learned about Exceptions / Try Catch.
 
-Code:
+//Code:
+
 void main() {
   try{
     int resultado = 100 ~/ 2;
@@ -22,11 +23,12 @@ void main() {
 }
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Hoje eu aprendi sobre Exception Personalizadas 
+// Hoje eu aprendi sobre Exception Personalizadas 
 
-EN: Today I've Learned about personalized Exceptions on try/catch errors.
+// EN: Today I've Learned about personalized Exceptions on try/catch errors.
 
-Code:
+// Code:
+  
 void main() {
   try{
     funcao(-10);
@@ -50,11 +52,11 @@ class ParametroIncorreto implements Exception {
   }
 }
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Hoje aprendi sobre enumeradores
+// Hoje aprendi sobre enumeradores
 
-EN: Today I've Learned about Enum
+// EN: Today I've Learned about Enum
 
-Code:
+// Code:
 enum StatusPagamento {pendente, pago, reembolsado}
 
 void main() {
@@ -78,11 +80,11 @@ void main() {
 }
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Hoje aprendi sobre os modificadores Final e Const
+// Hoje aprendi sobre os modificadores Final e Const
 
-EN: Today I've Learned about Final and Const KeyWord.
+// EN: Today I've Learned about Final and Const KeyWord.
 
-Code: 
+// Code: 
 
 void main() {
   const nome = 'Gabriel';
@@ -99,9 +101,9 @@ void main() {
   sobrenome = 'Teste do modificador Final';
 }
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Hoje aprendi sobre Operadores Cascata
+// Hoje aprendi sobre Operadores Cascata
 
-Code:
+// Code:
 void main() {
   List<String> nomes = [];
 
